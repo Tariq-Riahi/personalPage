@@ -1,0 +1,56 @@
+# Project exclude paths
+/venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+db.sqlite3
+media/
+staticfiles/
+
+# If you use SQLite3 locally, exclude the database
+*.sqlite3
+
+# Ignore environment variables and settings files
+.env
+*.env
+
+# Ignore all Venv and dependencies
+venv/
+env/
+ENV/
+*.env/
+*.venv/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore files related to your deployment
+*.log
+*.pot
+*.pyc
+*.pyo
+*.mo
+*.so
+*.out
+*.pid
+*.lock
+*.wsgi
+
